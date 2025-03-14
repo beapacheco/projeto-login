@@ -6,7 +6,6 @@
     Lilás: #5f2c82
     Azul: #94CFCD
     Azul escuro: #36706e
-
 */
 
 @media all {
@@ -123,7 +122,7 @@ main p {
     margin-bottom: 15px;
     border-radius: 5px;
     border: 0px;
-    font-size: 15px;
+    font-size: 1em;
 }
 
 #entrar:hover {
@@ -135,11 +134,8 @@ main p {
     text-decoration: none;
     color: var(--cor-azul-escuro);
     border: 1px solid var(--cor-verde);
-    padding: 10px;
+    padding: 10px 50px 10px 50px;
     border-radius: 8px;
-    font-size: 15px;
-    padding-left: 53px;
-    padding-right: 53px;
 }
 
 .botao:hover {
@@ -147,8 +143,6 @@ main p {
 }
 
 }
-
-
 
 
 @media screen and (min-width: 769px) and (max-wdith: 1200px) { /* TABLETS e DESKTOPS */
