@@ -79,10 +79,6 @@ main p {
     align-items: center;
 }
 
-.campo > label {
-    display: none;
-}
-
 .icone-campo {
     margin-right: 5px;
 }
