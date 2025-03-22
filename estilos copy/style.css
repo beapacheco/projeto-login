@@ -71,21 +71,21 @@ main p {
     background-color: var(--cor-lilas);
     margin: 5px 10px 4px 10px;
     border-radius: 8px;
-    padding: 2px 2px 2px 10px;
+    padding: 2px 2px 2px 45px;
     height: 40px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .campo > label {
     display: none;
 }
 
-.icone-campo {
-    margin-right: 5px;
+span {
+    text-align: start;
 }
+
 
 .campo > input {
     background-color: var(--cor-azul);
@@ -100,14 +100,15 @@ main p {
 .campo > input::placeholder {
     transform: translateY(-5px);
     display: block;
+    padding: 10px;
 }
 
 #iemail, #isenha {
     background-color: var(--cor-azul);
     border: 0px;
     border-radius: 8px;
+    padding: 18px 0px 0px 0px;
     font-size: 1em;
-    padding-top: 21px;
 }
 
 #iemail::placeholder, #isenha::placeholder {
