@@ -42,7 +42,8 @@ main {
     width: 250px;
     height: 520px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.24);
-    transition: width 0.5s, height 0.5s;
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 main h1 {
@@ -77,6 +78,10 @@ main p {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.campo > label {
+    display: none;
 }
 
 .icone-campo {
