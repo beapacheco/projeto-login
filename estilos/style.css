@@ -8,7 +8,6 @@
     Azul escuro: #36706e
 */
 
-@media all {
 * {
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     margin: 0px;
@@ -43,6 +42,7 @@ main {
     width: 250px;
     height: 520px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.24);
+    transition: width 0.5s, height 0.5s;
 }
 
 main h1 {
@@ -60,7 +60,7 @@ main p {
 
 #imagem {
     background-image: url(../imagens/login-image.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     height: 188px;
@@ -120,7 +120,7 @@ main p {
     color: white;
     width: 230px;
     padding: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     border-radius: 5px;
     border: 0px;
     font-size: 1em;
@@ -135,19 +135,13 @@ main p {
     text-decoration: none;
     color: var(--cor-azul-escuro);
     border: 1px solid var(--cor-verde);
-    padding: 10px 50px 10px 50px;
+    padding: 10px 50px;
     border-radius: 8px;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
 }
 
 .botao:hover {
     background-color: rgb(121, 233, 196);
-}
-}
-
-@media screen and (min-width: 769px) and (max-wdith: 1200px) { /* TABLETS e DESKTOPS */
-
-}
-
-@media screen and (min-width: 1201px) { /* TELAS GRANDES */
-
 }
